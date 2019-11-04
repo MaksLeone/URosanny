@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Connection>Data Source=DESKTOP-C1U5NIH\SQLEXPRESS; Initial Catalog=IMvcDb; Integrated Security=True</Connection>
+</Root>

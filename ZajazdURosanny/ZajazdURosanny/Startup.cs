@@ -6,22 +6,33 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using ZajazdURosanny.Context;
 
 namespace ZajazdURosanny
 {
     public class Startup
     {
+        protected IConfigurationRoot Configuration;
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<URosannyContext>(builer => builer.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=URosanny;Integrated Security=True"));
+            var configurationBuilder = new ConfigurationBuilder();
+            configurationBuilder.AddXmlFile("Config.xml");
+            Configuration = configurationBuilder.Build();
 
+            services.AddDbContext<EFCDbContext>(build =>
+            {
+                var config = Configuration["Connection"];
+                build.UseSqlServer(config);
+            });
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<EFCDbContext>();
 
             services.AddMvc();
         }
@@ -38,9 +49,12 @@ namespace ZajazdURosanny
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
 
-            app.UseCookiePolicy();
+            //app.UseCookiePolicy();
+
+            app.UseAuthentication();
+
 
             app.UseMvc(routes =>
             {
