@@ -11,12 +11,14 @@ namespace ZajazdURosanny.Controllers
     public class AccountController : Controller
     {
         protected SignInManager<IdentityUser> SignInManager { get; set; }
+        protected RoleManager<IdentityRole> RoleManager { get; }
         public UserManager<IdentityUser> UserManager { get; set; }
 
-        public AccountController(SignInManager<IdentityUser> sim, UserManager<IdentityUser> um)
+        public AccountController(SignInManager<IdentityUser> sim, UserManager<IdentityUser> um, RoleManager<IdentityRole> roleManager)
         {
             SignInManager = sim;
             UserManager = um;
+            RoleManager = roleManager;
         }
 
         [HttpGet]
@@ -47,7 +49,7 @@ namespace ZajazdURosanny.Controllers
                     ModelState.AddModelError("", error.Description);
                 }
             }
-                return View(viewModel);
+            return View(viewModel);
         }
 
         [HttpGet]
@@ -61,12 +63,12 @@ namespace ZajazdURosanny.Controllers
             if (ModelState.IsValid)
             {
 
-                 var result = await SignInManager.PasswordSignInAsync(viewModel.Login, viewModel.Password, false, false);
+                var result = await SignInManager.PasswordSignInAsync(viewModel.Login, viewModel.Password, false, false);
 
-                 if (result.Succeeded)
-                 {
-                     return RedirectToAction("Index", "Home");
-                 }
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
             }
 
             return View();
@@ -76,5 +78,11 @@ namespace ZajazdURosanny.Controllers
             await SignInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
+
+        public IActionResult ControlPanel()
+        {
+            return View();
+        }
+
     }
 }

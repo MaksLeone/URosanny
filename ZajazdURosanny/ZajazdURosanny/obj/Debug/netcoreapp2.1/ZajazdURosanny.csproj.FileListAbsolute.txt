@@ -54,3 +54,5 @@ C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreap
 C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\ZajazdURosanny.csproj.CopyComplete
 C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
 C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Account\ControlPanel.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Role\Add.g.cshtml.cs
