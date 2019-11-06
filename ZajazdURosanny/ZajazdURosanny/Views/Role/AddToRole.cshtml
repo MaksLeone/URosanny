@@ -1,0 +1,25 @@
+﻿@model ZajazdURosanny.ViewModel.LogInViewModel
+
+@{
+    ViewData["Title"] = "AddToRole";
+}
+
+<h2>AddToRole</h2>
+<body>
+    <form method=" post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </form>
+    <form asp-action="AddToRole" method="post" asp-route-id="roleName">
+
+        <div class="form-group">
+            <select name="Role">
+                <option value="Admin">Admin</option>
+            </select>
+
+
+        </div>
+
+
+    </form>
+
+</body>

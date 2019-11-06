@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ZajazdURosanny.Models;
+using ZajazdURosanny.ViewModel;
 
 namespace ZajazdURosanny.Controllers
 {
@@ -34,6 +35,22 @@ namespace ZajazdURosanny.Controllers
             var ir = new IdentityRole(roleName);
             await RoleManager.CreateAsync(ir);
             role.RoleName = roleName;
+
+            return RedirectToAction("Index", "Home");
+        }
+
+
+        // Dodawanie uzytkownika do roli
+        // NIESKONCZONE
+        [HttpGet]
+        public async Task<IActionResult> AddToRole()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> AddToRole(RoleViewModel role, string user)
+        {
+            
 
             return RedirectToAction("Index", "Home");
         }
