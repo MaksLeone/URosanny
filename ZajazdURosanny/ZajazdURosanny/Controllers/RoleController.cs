@@ -13,14 +13,13 @@ namespace ZajazdURosanny.Controllers
     [Authorize]
     public class RoleController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
         protected RoleManager<IdentityRole> RoleManager { get; }
-        public RoleController(RoleManager<IdentityRole> roleManager)
+        protected UserManager<IdentityUser> UserManager { get; }
+
+        public RoleController(RoleManager<IdentityRole> roleManager, UserManager<IdentityUser> userManager)
         {
             RoleManager = roleManager;
+            UserManager = userManager;
         }
 
         [HttpGet]
@@ -40,17 +39,18 @@ namespace ZajazdURosanny.Controllers
         }
 
 
-        // Dodawanie uzytkownika do roli
-        // NIESKONCZONE
+        //Dodawanie uzytkownika do roli
+        //Podczas wchodzenia do tej akcji przekierowuje do - /Account/Login ... O.o
         [HttpGet]
         public async Task<IActionResult> AddToRole()
         {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> AddToRole(RoleViewModel role, string user)
+        public async Task<IActionResult> AddToRole(RoleViewModel role)
         {
-            
+            IdentityUser user = await UserManager.GetUserAsync(User);
+            await UserManager.AddToRoleAsync(user, "Admin");
 
             return RedirectToAction("Index", "Home");
         }
