@@ -57,3 +57,13 @@ C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreap
 C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Account\ControlPanel.g.cshtml.cs
 C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Role\Add.g.cshtml.cs
 C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Role\AddToRole.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\News\Index.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Menu\Create.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Menu\Delete.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Menu\Edit.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\Menu\Index.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\News\Create.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\News\Delete.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\News\Details.g.cshtml.cs
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\News\Edit.g.cshtml.cs
