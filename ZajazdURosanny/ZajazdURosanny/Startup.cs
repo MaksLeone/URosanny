@@ -27,9 +27,12 @@ namespace ZajazdURosanny
 
             services.AddDbContext<EFCDbContext>(build =>
             {
-                var config = Configuration["Connection"];
-                build.UseSqlServer(config);
+                //var config = Configuration["Connection"];
+                //build.UseSqlServer(config);
+                build.UseInMemoryDatabase("Rosa");
             });
+
+
 
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<EFCDbContext>();
@@ -49,7 +52,7 @@ namespace ZajazdURosanny
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            //app.UseStaticFiles();
+            app.UseStaticFiles();
 
             //app.UseCookiePolicy();
 
