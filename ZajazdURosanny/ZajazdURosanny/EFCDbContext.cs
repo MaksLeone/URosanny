@@ -16,6 +16,7 @@ namespace ZajazdURosanny
         }
         public DbSet<ZajazdURosanny.Models.MenuModel> MenuModel { get; set; }
         public DbSet<ZajazdURosanny.Models.NewsModel> NewsModel { get; set; }
+        public DbSet<ZajazdURosanny.Models.RoleViewModel> RoleViewModel { get; set; }
 
     }
 }

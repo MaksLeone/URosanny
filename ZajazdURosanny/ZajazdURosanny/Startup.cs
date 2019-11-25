@@ -27,9 +27,9 @@ namespace ZajazdURosanny
 
             services.AddDbContext<EFCDbContext>(build =>
             {
-                //var config = Configuration["Connection"];
-                //build.UseSqlServer(config);
-                build.UseInMemoryDatabase("Rosa");
+                var config = Configuration["Connection"];
+                build.UseSqlServer(config);
+                //build.UseInMemoryDatabase("Rosa");
             });
 
 
@@ -63,7 +63,7 @@ namespace ZajazdURosanny
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=News}/{action=Index}/{id?}");
             });
         }
     }
