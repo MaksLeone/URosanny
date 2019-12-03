@@ -23,13 +23,8 @@ using ZajazdURosanny.Models;
 
 #line default
 #line hidden
-#line 3 "C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\Views\_ViewImports.cshtml"
-using ZajazdURosanny.ViewModel;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6a3980a468a2635276a168fc88bfcd9d0634ad6c", @"/Views/Menu/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"64dd95e2bdd011286cb6ea9a7d9afe4bf818d5eb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"37002783461fbed2ee63e3a2cff9796c5ad3c469", @"/Views/_ViewImports.cshtml")]
     public class Views_Menu_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<ZajazdURosanny.Models.MenuModel>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -61,7 +56,7 @@ using ZajazdURosanny.ViewModel;
             WriteLiteral("\r\n<p>\r\n    ");
             EndContext();
             BeginContext(64, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e25a8f5442541198cea6381d7d71120", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1767d7e602c7410bb6ecdebffaebef81", async() => {
                 BeginContext(87, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
@@ -171,7 +166,7 @@ using ZajazdURosanny.ViewModel;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1092, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e0b599a26684d89868d8fc882a5edb1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8d9e39840bc4b46a22b7f5a96754d43", async() => {
                 BeginContext(1137, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -206,7 +201,7 @@ using ZajazdURosanny.ViewModel;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1165, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7ad3ffb23b694ee080df7157b875c465", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ebcab71640b4aef9fa0280749903175", async() => {
                 BeginContext(1212, 6, true);
                 WriteLiteral("Delete");
                 EndContext();

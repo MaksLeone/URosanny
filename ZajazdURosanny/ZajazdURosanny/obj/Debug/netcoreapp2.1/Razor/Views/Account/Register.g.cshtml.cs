@@ -23,13 +23,8 @@ using ZajazdURosanny.Models;
 
 #line default
 #line hidden
-#line 3 "C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\Views\_ViewImports.cshtml"
-using ZajazdURosanny.ViewModel;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7db2a60963518f88936baba9c9da61c948a8851d", @"/Views/Account/Register.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"64dd95e2bdd011286cb6ea9a7d9afe4bf818d5eb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"37002783461fbed2ee63e3a2cff9796c5ad3c469", @"/Views/_ViewImports.cshtml")]
     public class Views_Account_Register : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Register", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -62,7 +57,7 @@ using ZajazdURosanny.ViewModel;
             WriteLiteral("\r\n    <div>\r\n        ");
             EndContext();
             BeginContext(21, 710, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "54de67dd863a41e19ce4f1dcef1f3c4c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2c68bdec1e344093a73c68a0991d4f54", async() => {
                 BeginContext(63, 661, true);
                 WriteLiteral(@"
             <label>Login</label>
@@ -99,7 +94,7 @@ using ZajazdURosanny.ViewModel;
             WriteLiteral("\r\n    </div>\r\n    ");
             EndContext();
             BeginContext(749, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ad4374512c6d443fb1a05c3883b3ca70", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee00ae6cc92446649a1ec22a029ae1cb", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper>();

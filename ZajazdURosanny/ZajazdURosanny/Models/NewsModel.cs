@@ -16,5 +16,6 @@ namespace ZajazdURosanny.Models
         [Required]
         public string Description { get; set; }
         public DateTime PostedOn { get; set; }
+        public RoleModel RoleViewModel { get; set; }
     }
 }

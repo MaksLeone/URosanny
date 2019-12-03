@@ -23,13 +23,8 @@ using ZajazdURosanny.Models;
 
 #line default
 #line hidden
-#line 3 "C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\Views\_ViewImports.cshtml"
-using ZajazdURosanny.ViewModel;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4a8ea62db46975aa55bcd14bbeeed11c9fd46f18", @"/Views/Account/ControlPanel.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"64dd95e2bdd011286cb6ea9a7d9afe4bf818d5eb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"37002783461fbed2ee63e3a2cff9796c5ad3c469", @"/Views/_ViewImports.cshtml")]
     public class Views_Account_ControlPanel : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -59,7 +54,7 @@ using ZajazdURosanny.ViewModel;
             WriteLiteral("<html>\r\n");
             EndContext();
             BeginContext(8, 106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1f2515dd03a44c62bfdb97605339c199", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "810297e163d6413ea64a6d043b3536f4", async() => {
                 BeginContext(14, 93, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Rejestracja</title>\r\n");
                 EndContext();
@@ -79,7 +74,7 @@ using ZajazdURosanny.ViewModel;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(116, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b2bdcd71b18f4d89a9d34d107a40bdf8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "009c731c5bc94e4788d00e536b2e93d3", async() => {
                 BeginContext(122, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();

@@ -28,7 +28,7 @@ namespace ZajazdURosanny.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterViewModel viewModel)
+        public async Task<IActionResult> Register(RegisterModel viewModel)
         {
             if (ModelState.IsValid)
             {
@@ -58,7 +58,7 @@ namespace ZajazdURosanny.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(LogInViewModel viewModel)
+        public async Task<IActionResult> Login(LogInModel viewModel)
         {
             if (ModelState.IsValid)
             {

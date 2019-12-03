@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace ZajazdURosanny.ViewModel
 {
-    public class LogInViewModel
+    public class RegisterModel
     {
         [Required]
         public string Login { get; set; }
         [Required]
+        public string Email { get; set; }
+        [Required, Compare("RepeatPassword")]
         public string Password { get; set; }
+        [Required]
+        public string RepeatPassword { get; set; }
+
     }
 }

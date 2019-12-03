@@ -30,7 +30,7 @@ namespace ZajazdURosanny.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(RoleViewModel role, string roleName)
+        public async Task<IActionResult> Add(RoleModel role, string roleName)
         {
             var ir = new IdentityRole(roleName);
             await RoleManager.CreateAsync(ir);
@@ -48,7 +48,7 @@ namespace ZajazdURosanny.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> AddToRole(RoleViewModel role)
+        public async Task<IActionResult> AddToRole(RoleModel role)
         {
             IdentityUser user = await UserManager.GetUserAsync(User);
             await UserManager.AddToRoleAsync(user, "Admin");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZajazdURosanny.Models
 {
-    public class RoleViewModel
+    public class RoleModel
     {
         public int Id { get; set; }
         public string RoleName { get; set; }
