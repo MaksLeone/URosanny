@@ -14,9 +14,9 @@ namespace ZajazdURosanny
         public EFCDbContext(DbContextOptions<EFCDbContext> options): base(options)
         {
         }
-        public DbSet<ZajazdURosanny.Models.MenuModel> MenuModel { get; set; }
-        public DbSet<ZajazdURosanny.Models.NewsModel> NewsModel { get; set; }
-        public DbSet<ZajazdURosanny.Models.RoleModel> RoleViewModel { get; set; }
+        public DbSet<MenuModel> MenuModel { get; set; }
+        public DbSet<NewsModel> NewsModel { get; set; }
+        public DbSet<RoleModel> RoleModel { get; set; }
 
     }
 }

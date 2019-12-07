@@ -41,7 +41,7 @@ namespace ZajazdURosanny.Controllers
 
                     if (result2.Succeeded)
                     {
-                        return RedirectToAction("Index", "Home");
+                        return RedirectToAction("Index", "News");
                     }
                 }
                 foreach (var error in result.Errors)
@@ -67,7 +67,7 @@ namespace ZajazdURosanny.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "News");
                 }
             }
 
@@ -76,7 +76,7 @@ namespace ZajazdURosanny.Controllers
         public async Task<IActionResult> LogOut()
         {
             await SignInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "News");
         }
 
         public IActionResult ControlPanel()

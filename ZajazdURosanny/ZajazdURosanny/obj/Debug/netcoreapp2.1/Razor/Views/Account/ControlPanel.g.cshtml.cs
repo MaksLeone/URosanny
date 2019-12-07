@@ -54,7 +54,7 @@ using ZajazdURosanny.Models;
             WriteLiteral("<html>\r\n");
             EndContext();
             BeginContext(8, 106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "810297e163d6413ea64a6d043b3536f4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9019f516c8b5488b97d250c201b18b70", async() => {
                 BeginContext(14, 93, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Rejestracja</title>\r\n");
                 EndContext();
@@ -74,7 +74,7 @@ using ZajazdURosanny.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(116, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "009c731c5bc94e4788d00e536b2e93d3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a63af7758eb54cb8a719c044277ed697", async() => {
                 BeginContext(122, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();

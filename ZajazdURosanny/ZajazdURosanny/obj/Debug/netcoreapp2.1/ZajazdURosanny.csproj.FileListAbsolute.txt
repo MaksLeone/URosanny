@@ -109,3 +109,4 @@ C:\Users\hp1288\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcore
 C:\Users\hp1288\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\ZajazdURosanny.dll
 C:\Users\hp1288\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\ZajazdURosanny.pdb
 C:\Users\hp1288\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\ZajazdURosanny.csproj.CopyComplete
+C:\Users\Maks\Desktop\URosanny\ZajazdURosanny\ZajazdURosanny\obj\Debug\netcoreapp2.1\Razor\Views\ControlPanel\Index.g.cshtml.cs

@@ -57,7 +57,7 @@ using ZajazdURosanny.Models;
             WriteLiteral("\r\n<p>\r\n    ");
             EndContext();
             BeginContext(64, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53abb3d259484d43995b0c91c51f3310", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f3e76aaa0c0429c98475f852cd6a017", async() => {
                 BeginContext(87, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
@@ -147,7 +147,7 @@ using ZajazdURosanny.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(901, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c53f74990dc4ca696f1ff75b4f9fe51", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44b6e83ec0ad4054b33d8ea0df6ce8f4", async() => {
                 BeginContext(946, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -182,7 +182,7 @@ using ZajazdURosanny.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(974, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "054e785c4aa240cebc92cd370a573a79", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2fd26ddf7dd44fd89b9f16ae710973fa", async() => {
                 BeginContext(1022, 7, true);
                 WriteLiteral("Details");
                 EndContext();
@@ -217,7 +217,7 @@ using ZajazdURosanny.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1053, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6b7de85e9cac43e68cf8170aad6d3339", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "04128092f37747a7bddfa02aaf079b34", async() => {
                 BeginContext(1100, 6, true);
                 WriteLiteral("Delete");
                 EndContext();

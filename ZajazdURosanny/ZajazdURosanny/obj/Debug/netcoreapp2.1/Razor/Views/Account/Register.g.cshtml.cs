@@ -57,7 +57,7 @@ using ZajazdURosanny.Models;
             WriteLiteral("\r\n    <div>\r\n        ");
             EndContext();
             BeginContext(21, 710, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2c68bdec1e344093a73c68a0991d4f54", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee8c10c28b574e9db389ed44c2d5b984", async() => {
                 BeginContext(63, 661, true);
                 WriteLiteral(@"
             <label>Login</label>
@@ -94,7 +94,7 @@ using ZajazdURosanny.Models;
             WriteLiteral("\r\n    </div>\r\n    ");
             EndContext();
             BeginContext(749, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee00ae6cc92446649a1ec22a029ae1cb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc34e3f10ded47a19322550003b9a206", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper>();

@@ -15,6 +15,7 @@ namespace ZajazdURosanny.Models
         public string Category { get; set; }
         [Required]
         public string Name { get; set; }
+        [Required]
         public string Description { get; set; }
         [Required]
         public double Price { get; set; }
